@@ -1,7 +1,6 @@
 # Integrating Security Testing Into The Sofware Development Lifecycle
 <img src="https://raw.githubusercontent.com/bayulus/devsecops-jenkins-aws/d43e6146dfefaf7f5902677e2872684f4f15d64a/images/DevSecOps-%20Project%20Dissertation.jpg" >
 
-
 <h2>Intoduction</h2> 
 
 In this project, I design and implement a comprehensive DevSecOps pipeline that seamlessly integrates security practices into the software development lifecycle using AWS cloud infrastructure.
