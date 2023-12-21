@@ -1,5 +1,6 @@
 # Integrating Security Testing Into The Sofware Development Lifecycle
-https://raw.githubusercontent.com/bayulus/devsecops-jenkins-aws/d43e6146dfefaf7f5902677e2872684f4f15d64a/images/DevSecOps-%20Project%20Dissertation.jpg
+<img src="https://raw.githubusercontent.com/bayulus/devsecops-jenkins-aws/d43e6146dfefaf7f5902677e2872684f4f15d64a/images/DevSecOps-%20Project%20Dissertation.jpg" >
+
 
 <h2>Intoduction</h2> 
 
