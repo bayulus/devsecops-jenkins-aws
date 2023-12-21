@@ -1,4 +1,4 @@
-# Integrating Security Testing Into The SDLC
+<h2>Integrating Security Testing Into The SDLC</h2> 
 
 In this project, I design and implement a comprehensive DevSecOps pipeline that seamlessly integrates security practices into the software development lifecycle using AWS cloud infrastructure.
   * I design and execute a DevSecOps pipeline that smoothly incorporates Static Application Security Testing (SAST), Software Composition Analysis (SCA), and Dynamic Application Security Testing (DAST) phases. This aims to illustrate how the joint work of development, security, and operations teams can actively identify and address vulnerabilities.
