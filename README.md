@@ -9,10 +9,11 @@ In this project, I design and implement a comprehensive DevSecOps pipeline that 
   * I used  platforms and tools such as Jenkins, AWS EKS, AWS ECR, and Terraform for this project.
 
 <h2>Environment and Tools Used</h2>
-  * AWS - For cloud Infrastructure
-  Jenkins - 
-Terraform - 
-AWS EKS - 
-AWS ECR - 
-Github - 
+
+ * AWS - For cloud Infrastructure
+ * Jenkins -
+ * Terraform -
+ * AWS EKS -
+ * AWS ECR -
+ * Github - 
 
