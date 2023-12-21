@@ -19,6 +19,7 @@ In this project, I design and implement a comprehensive DevSecOps pipeline that 
 
 <h2>Creating Infrastructue Using Terraform</h2>
 The code snippet is written in HashiCorp Configuration Language (HCL) and is used for creating infrastructure with Terraform. It includes configuration settings for an AWS EC2 instance and networking configurations like Security Groups, which control inbound and outbound traffic. The configuration files articulate the desired state of the infrastructure.
+<img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/mainft.png?raw=true" >
 
 
 
