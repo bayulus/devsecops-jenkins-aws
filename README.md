@@ -30,6 +30,10 @@ In this project, I design and implement a comprehensive DevSecOps pipeline that 
 <h2>GitHub Repository</h2>
 <p>The web application's source code is stored on  in the github repositories. Jenkins server monitors the repositories for any changes using a webhook and pulls the latest code when a new commit is made. Jenkins then uses Maven to build the code, including compiling Java, resolving dependencies, and generating executable artifacts. The project's pom.xml file also includes configurations for plugins like Snyk and OWASP's dependency-check for code analysis and security checks, which Jenkins ensures are executed during the build process. Jenkins captures information about the build as it proceeds, such as errors or warnings.</p>
 
+<img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/gitrepo.png?raw=true" >
+
+
+
 
 
 
