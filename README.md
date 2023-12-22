@@ -25,7 +25,7 @@ In this project, I design and implement a comprehensive DevSecOps pipeline that 
 <h2>Running Virtual Machine Created on AWS with Jenkins, Kubernetes, Docker OWASP ZAP and Maven Installed</h2>
 <p>The Terraform repository contains a shell script called installjenkinszap.sh, which automates the installation and configuration of various software packages on a virtual machine. The script installs Jenkins, OWASP ZAP, Maven, Docker, Kubernetes, and Git. By integrating the script into the Terraform configuration file, it ensures that these components are installed and configured on the EC2 instance as soon as it's provisioned. This saves time and effort and ensures consistency across environments.</p>
 
-<img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/mainft.png?raw=true" >
+<img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/8.png" >
 
 
 
