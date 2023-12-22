@@ -10,12 +10,12 @@ In this project, I design and implement a comprehensive DevSecOps pipeline that 
 
 <h2>Environment and Tools Used</h2>
 
- * AWS - For cloud Infrastructure
- * Jenkins -  For continuous integration and continuous delivery (CI/CD) processes.
- * Terraform - For infrastructure as code (IaC), enabling the provisioning and management of cloud resources.
- * AWS EKS -  Amazon Elastic Kubernetes Service, for orchestrating and managing Kubernetes clusters on AWS.
- * AWS ECR - Amazon Elastic Container Registry, a fully managed Docker container registry for storing, managing, and deploying Docker container images.
- * Github -  For version control and collaborative software development, allowing teams to manage code repositories and track changes efficiently.
+ * **AWS** - For cloud Infrastructure
+ * **Jenkins** -  For continuous integration and continuous delivery (CI/CD) processes.
+ * **Terraform** - For infrastructure as code (IaC), enabling the provisioning and management of cloud resources.
+ * **AWS EKS** -  Amazon Elastic Kubernetes Service, for orchestrating and managing Kubernetes clusters on AWS.
+ * **AWS ECR** - Amazon Elastic Container Registry, a fully managed Docker container registry for storing, managing, and deploying Docker container images.
+ * **GitHub** -  For version control and collaborative software development, allowing teams to manage code repositories and track changes efficiently.
 
 <h2>Creating Cloud Infrastructure Using Terraform</h2>
 <p>The code snippet is written in HashiCorp Configuration Language (HCL) and is used for creating infrastructure with Terraform. It includes configuration settings for an AWS EC2 instance and networking configurations like Security Groups, which control inbound and outbound traffic. The configuration files articulate the desired state of the infrastructure.</p>
