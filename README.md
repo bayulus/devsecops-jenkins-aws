@@ -79,7 +79,7 @@ _The provided repository above includes a "Jenkinsfile" containing directives fo
  <img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/28.PNG?raw=true" >
  <img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/30.PNG?raw=true" >
 
- <p>The ava application is deployed on Kubernetes with an external IP address or Hostname. The URL for accessing the application is abf0cfbad1db94924a4f9ddf25db684d-539840078.eu-west-2.elb.amazonaws.com. Traffic from port 80 is forwarded to port 30903 on the cluster's nodes.</p>
+ <p>The java application is deployed on Kubernetes with an external IP address or Hostname. The URL for accessing the application is abf0cfbad1db94924a4f9ddf25db684d-539840078.eu-west-2.elb.amazonaws.com. Traffic from port 80 is forwarded to port 30903 on the cluster's nodes.</p>
 
  <img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/31.PNG?raw=true" >
  
@@ -91,6 +91,8 @@ _The provided repository above includes a "Jenkinsfile" containing directives fo
 
  * <h2> OWASP ZAP Build and Test Result </h2>
  The full scan result can be found in the zap_report.html in the repo
+
+ <img src=""https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/32.PNG?raw=true >
  <img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/34.PNG?raw=true" >
  
  
