@@ -54,6 +54,32 @@ _The provided repository above includes a "Jenkinsfile" containing directives fo
 
 <p>Performing an SCA scan in our code serves the purpose of identifying and addressing potential security vulnerabilities present in the third-party libraries, frameworks, and components upon which our codes in the pom.xml file depend. The integration of Snyk into our development process enables us to identify vulnerabilities within the dependencies utilized in the code.</p>
 
+<img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/21.PNG?raw=true" >
+
+ * <h3>Snyk Build and Test result</h3>
+ <p>Snyk found 35 known issues with dependencies, as well as 44 other issues and 44 vulnerable paths. It not only identifies vulnerabilities but also gives guidance on how to fix them, such as using patches, different package versions, or code changes.</p>
+   <img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/22.PNG?raw=true" >
+   <img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/23.PNG?raw=true" >
+
+<h2>DAST Implementation Using Owasp ZAP</h2>
+<p>To start the DAST scan, the initial step is to create a Docker image called "easy" and upload it to Docker Hub using the Docker daemon on a Jenkins machine. Then, the image is moved to an Amazon ECR repository using the provided credentials and URL by logging into an AWS account. This is done to utilize the containerized application from ECR for deployment to Kubernetes for orchestration and DAST scanning. </p>
+
+ * <h3>Code Snippet of The Build and Push Stage in the Jenkinsfile</h3>
+ <img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/26.PNG?raw=true" >
+ * <h3>Image Showing A successful Jenkins Pipeline With The App Image Built and Push to ECR</h3>
+ <img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/24.PNG?raw=true" >
+ * <h3>Image of The App Dockerized Image Built to Amazon ECR Ready For Deployment to Amazon Kubernetes</h3>
+ <img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/25.PNG?raw=true" >
+ 
+
+
+
+
+
+
+
+
+
 
 
 
