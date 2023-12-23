@@ -50,7 +50,9 @@ _The provided repository above includes a "Jenkinsfile" containing directives fo
  <img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/19.PNG?raw=true" >
  <img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/20.PNG?raw=true" >
 
-<h2>SAST Implementation Using Sona</h2>
+<h2>SAST Implementation Using Snyk</h2>
+
+<p>Performing an SCA scan in our code serves the purpose of identifying and addressing potential security vulnerabilities present in the third-party libraries, frameworks, and components upon which our codes in the pom.xml file depend. The integration of Snyk into our development process enables us to identify vulnerabilities within the dependencies utilized in the code.</p>
 
 
 
