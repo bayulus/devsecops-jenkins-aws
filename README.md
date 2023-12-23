@@ -32,7 +32,9 @@ In this project, I design and implement a comprehensive DevSecOps pipeline that 
 
 <img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/gitrepo.png?raw=true" >
 
-_The provided repository above includes a "Jenkinsfile" containing directives for automating the complete build, testing, and code analysis procedures for the Java web application. In the repo is also a "dockerfile" that outlines the necessary steps to build an image containing the application and its dependencies.Also, The "deployment.yaml" file located in the repository serves as a means to specify a deployment resource in Kubernetes._ Below are the images respectively.
+_The provided repository above includes a "Jenkinsfile" containing directives for automating the complete build, testing, and code analysis procedures for the Java web application. In the repo is also a "dockerfile" that outlines the necessary steps to build an image containing the application and its dependencies. Also, The "deployment.yaml" file located in the repository serves as a means to specify a deployment resource in Kubernetes._
+
+# Implementation
 
 
 
