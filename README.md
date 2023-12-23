@@ -36,7 +36,21 @@ _The provided repository above includes a "Jenkinsfile" containing directives fo
 
 # Implementation
 
+<h2>SAST Implementation Using SonarCloud</h2>
 
+<p>SonarCloud is integrated into the pipeline to analyze the source code for vulnerabilities and quality issues. It scans the codebase for known vulnerabilities and code quality issues that could impact the application's security and maintainability.</p>
+
+<img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/sonarcloud.PNG?raw=true" >
+
+ * <h3>SonarCloud Build Result</h3>
+ <p>Jenkins sends code to SonarCloud for analysis after the build process. The scan results show 56 bugs, 53 vulnerabilities, 138 code smells, 38 security hotspots, and 6.6% identical lines of code. SonarCloud not only identifies issues in the code, but also provides solutions to prevent them.</p>
+ <img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/18.PNG?raw=true" >
+
+ * <h3>SonarCloud Test Result</h3>
+ <img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/19.PNG?raw=true" >
+ <img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/20.PNG?raw=true" >
+
+<h2>SAST Implementation Using Sona</h2>
 
 
 
