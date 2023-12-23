@@ -34,7 +34,7 @@ In this project, I design and implement a comprehensive DevSecOps pipeline that 
 
 _The provided repository above includes a "Jenkinsfile" containing directives for automating the complete build, testing, and code analysis procedures for the Java web application. In the repo is also a "dockerfile" that outlines the necessary steps to build an image containing the application and its dependencies. Also, The "deployment.yaml" file located in the repository serves as a means to specify a deployment resource in Kubernetes._
 
-# Implementation
+<h1>Implementation<h2></h2>
 
 <h2>SAST Implementation Using SonarCloud</h2>
 
@@ -92,8 +92,11 @@ _The provided repository above includes a "Jenkinsfile" containing directives fo
  * <h2> OWASP ZAP Build and Test Result </h2>
  The full scan result can be found in the zap_report.html in the repo
 
- <img src=""https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/32.PNG?raw=true >
+ <img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/32.PNG?raw=true">
  <img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/34.PNG?raw=true" >
+
+<h1>Conclusion</h1>
+<p>In this project, I conducted security testing at various stages of the software development life cycle. I conducted SAST, SCA, and DAST to implement security measures using various tools. The DevSecOps initiative goes beyond just using tools; it's about creating a culture that prioritizes security. It's about adopting a mindset that values security in every aspect. By integrating security into the development process, we're not only writing code; we're building resilient and secure solutions that can withstand evolving threats. Emphasizing early detection of vulnerabilities, closely monitoring third-party dependencies, simulating real-world attacks, and integrating practical security practices can help organizations develop more secure applications without slowing down the development process.</p>
  
  
 
