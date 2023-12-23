@@ -50,7 +50,7 @@ _The provided repository above includes a "Jenkinsfile" containing directives fo
  <img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/19.PNG?raw=true" >
  <img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/20.PNG?raw=true" >
 
-<h2>SAST Implementation Using Snyk</h2>
+<h2>SCA Implementation Using Snyk</h2>
 
 <p>Performing an SCA scan in our code serves the purpose of identifying and addressing potential security vulnerabilities present in the third-party libraries, frameworks, and components upon which our codes in the pom.xml file depend. The integration of Snyk into our development process enables us to identify vulnerabilities within the dependencies utilized in the code.</p>
 
@@ -61,15 +61,41 @@ _The provided repository above includes a "Jenkinsfile" containing directives fo
    <img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/22.PNG?raw=true" >
    <img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/23.PNG?raw=true" >
 
-<h2>DAST Implementation Using Owasp ZAP</h2>
+<h2>Steps to Take Before Conducting a DAST Scan</h2>
 <p>To start the DAST scan, the initial step is to create a Docker image called "easy" and upload it to Docker Hub using the Docker daemon on a Jenkins machine. Then, the image is moved to an Amazon ECR repository using the provided credentials and URL by logging into an AWS account. This is done to utilize the containerized application from ECR for deployment to Kubernetes for orchestration and DAST scanning. </p>
 
- * <h3>Code Snippet of The Build and Push Stage in the Jenkinsfile</h3>
+ * <h4>Code Snippet of The Build and Push Stage in the Jenkinsfile</h4>
  <img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/26.PNG?raw=true" >
- * <h3>Image Showing A successful Jenkins Pipeline With The App Image Built and Push to ECR</h3>
+ 
+ * <h4>Image Showing A successful Jenkins Pipeline With The App Image Built and Push to ECR</h4>
  <img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/24.PNG?raw=true" >
- * <h3>Image of The App Dockerized Image Built to Amazon ECR Ready For Deployment to Amazon Kubernetes</h3>
+ 
+ * <h4>Image of The Dockerized App Image Built to Amazon ECR Ready For Deployment to Amazon Kubernetes</h4>
  <img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/25.PNG?raw=true" >
+
+ * <h4>Seamless Deployment of Containerized Application on AWS Kubernetes</h4>
+ <p>To implement DAST on the Java application, I need to deploy it to Kubernetes after containerizing it and pushing it to ECR. This will create a seamless runtime environment and allow us to easily scale our application by adding or removing container instances.</p>
+ <img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/29.PNG?raw=true" > 
+ <img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/28.PNG?raw=true" >
+ <img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/30.PNG?raw=true" >
+
+ <p>The ava application is deployed on Kubernetes with an external IP address or Hostname. The URL for accessing the application is abf0cfbad1db94924a4f9ddf25db684d-539840078.eu-west-2.elb.amazonaws.com. Traffic from port 80 is forwarded to port 30903 on the cluster's nodes.</p>
+
+ <img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/31.PNG?raw=true" >
+ 
+
+<h2>DAST Implementation Using OWASP ZAP</h2>
+<p>The next task in the DevSecOps pipeline is to perform a DAST scan on our application to simulate real-life attack scenarios on the  application.</p>
+
+<img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/35.PNG?raw=true" >
+
+ * <h2> OWASP ZAP Build and Test Result </h2>
+ The full scan result can be found in the zap_report.html in the repo
+ <img src="https://github.com/bayulus/devsecops-jenkins-aws/blob/main/images/34.PNG?raw=true" >
+ 
+ 
+
+ 
  
 
 
